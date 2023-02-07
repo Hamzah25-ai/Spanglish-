@@ -1,0 +1,2 @@
+put hamburger menu and remove the navbar
+use flex 50%

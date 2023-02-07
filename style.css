@@ -13,7 +13,9 @@ h1 {
 .brazy {
   display: flex;
   justify-content: space-between;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
+  text-align: center;
+  margin-left: 2rem;
 }
 .omo {
   display: flex;
@@ -22,9 +24,15 @@ h1 {
 }
 .cutthroat {
   display: flex;
-  gap: 1.2rem;
+  margin-right: 3rem;
+  gap: 2rem;
+  /* gap: 1.2rem; */
+  /* text-align: center; */
+  /* margin-left: 12rem; */
+}
+.mosh{
   text-align: center;
-  margin-right: 2rem;
+  margin-top: 2rem;
 }
 .telepathy{
   text-align: center;
@@ -35,6 +43,8 @@ i{
   gap: 2rem;
 }
 .xanax {
+  flex: 50%;
+  padding: 40px;
   text-align: center;
 }
 .ho {
@@ -43,18 +53,10 @@ i{
   background-color: purple;
   border-radius: 0.6rem;
   padding: 0.7rem;
-  width: 490px;
-}
-button {
-  text-align: center;
-  color: white;
-  background-color: purple;
-  border-radius: 0.6rem;
-  padding: 0.7rem;
-  /* margin-bottom: 2rem; */
+  width: 90%;
 }
 input {
-  width: 490px;
+  width: 90%;
   padding: 0.4rem;
   border: 1px solid rgba(128, 128, 128, 0.5);
   border-radius: 0.2rem;
@@ -63,15 +65,42 @@ input {
   display: flex;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   margin: 3rem;
-  padding: 4rem;
+  width: 93%;
+  padding: 2rem;
+}
+.blunt{
+  text-align: center;
+  color: white;
+  background-color: purple;
+  border-radius: 0.6rem;
+  padding: 0.5rem;
+  /* margin-left: 13rem; */
+  /* width: 40%; */
 }
 h3 > p {
   flex-wrap: wrap;
 }
 .van {
   margin-right: 3rem;
+  flex-wrap: wrap;
+  flex: 50%;
+  padding: 40px;
+  width: 100%;
 }
-.xanax {
-  margin-left: 3rem;
-  text-align: left;
+.skyy{
+  text-align: right;
+  position: fixed;
+}
+@media (max-width: 1200px) {
+  .promethazine{
+    flex-direction: column;
+  }
+}
+@media (max-width: 1300px) {
+  .brazy{
+    display: none;
+  }
+  /* .glock{
+    flex-direction: column;
+  } */
 }
