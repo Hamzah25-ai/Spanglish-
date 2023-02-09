@@ -97,8 +97,14 @@ h3 > p {
   }
 }
 @media (max-width: 1300px) {
-  .brazy{
+  .omo{
     display: none;
+  }
+  .cutthroat{
+    display: none;
+  }
+  .perc{
+   text-align: center;
   }
   /* .glock{
     flex-direction: column;
